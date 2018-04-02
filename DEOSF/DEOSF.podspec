@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DEOSF"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "framework格式框架"
   s.homepage     = "https://github.com/deo24/DEOSF"
   
