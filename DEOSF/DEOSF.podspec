@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DEOSF"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "framework格式框架"
   s.homepage     = "https://github.com/deo24/DEOSF"
   
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source       = {:git => "https://github.com/deo24/DEOSF.git",:tag => "#{s.version}"}
 
-  s.vendored_frameworks = "DEOSF.framework"
+  s.vendored_frameworks = "DEOSF/output/DEOSF.framework"
 
   s.frameworks = "Foundation"
 
