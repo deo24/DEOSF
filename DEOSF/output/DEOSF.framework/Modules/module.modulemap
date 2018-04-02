@@ -1,0 +1,11 @@
+framework module DEOSF {
+  umbrella header "DEOSF.h"
+
+  export *
+  module * { export * }
+}
+
+module DEOSF.Swift {
+    header "DEOSF-Swift.h"
+    requires objc
+}
