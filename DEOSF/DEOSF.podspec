@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DEOSF"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "framework格式框架"
   s.homepage     = "https://github.com/deo24/DEOSF"
   
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "DEOSF.framework"
 
-  s.frameworks = "Foundation,UIKit"
+  s.frameworks = "Foundation"
 
   s.requires_arc = true
 
