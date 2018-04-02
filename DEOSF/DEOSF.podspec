@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "DEOSF"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "framework格式框架"
   s.homepage     = "https://github.com/deo24/DEOSF"
   
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
 
   s.author       = { "deo24" => "email@address.com" }
 
@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
 
   s.source       = {:git => "https://github.com/deo24/DEOSF.git",:tag => "#{s.version}"}
 
-  s.source_files  = "DEOSF/DEOSF/output/DEOSF.framework"
+  s.vendored_frameworks = "DEOSF.framework"
+
+  s.frameworks = "Foundation,UIKit"
 
   s.requires_arc = true
 
